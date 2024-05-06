@@ -1,0 +1,45 @@
+/* SendMessagePage.css */
+.send_container {
+    background: linear-gradient(to right, #ff9966, #ff5e62); /* Gradient background */
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto; /* Center the container */
+    color: white; /* Text color */
+    display: flex; /* Use Flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+}
+
+.input-field, .textarea-field {
+    width: 100%; /* Full width */
+    padding: 10px;
+    margin: 5px 0; /* Add space between input areas */
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.textarea-field {
+    height: 100px; /* Adjust the height as needed */
+}
+
+.submit-button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* Text color */
+    padding: 10px 20px;
+    margin: 10px 0; /* Add space above the button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+.recp{
+    height: auto;
+    width: auto;
+}
